@@ -1,0 +1,33 @@
+{
+  "name": "hexo-stats-echarts",
+  "version": "1.0.1",
+  "private": false,
+  "description": "hexo-stats-echarts is a lightweight and visually appealing Hexo plugin designed to help you visualize and analyze your blog's statistical data in an interactive and elegant way. With just one line of code, you can effortlessly insert beautiful, customizable charts into any Hexo page or article.",
+  "keywords": [
+    "hexo",
+    "stats",
+    "echarts",
+    "tags"
+  ],
+  "homepage": "https://github.com/erispyu/hexo-stats-echarts#readme",
+  "bugs": {
+    "url": "https://github.com/erispyu/hexo-stats-echarts/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erispyu/hexo-stats-echarts.git"
+  },
+  "license": "MIT",
+  "author": "erispyu",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "moment": "^2.30.1"
+  }
+}
