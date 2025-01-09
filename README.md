@@ -1,5 +1,9 @@
 # Hexo-Stats-ECharts
 
+[![NPM Version](https://img.shields.io/npm/v/hexo-stats-echarts?color=red&logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)
+[![NPM Downloads](https://img.shields.io/npm/dm/hexo-stats-echarts?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)
+[![License](https://img.shields.io/badge/license-%20MIT-blue?style=flat-square&logo=gnu)](https://github.com/erispyu/hexo-stats-echarts/blob/main/LICENSE)
+
 > **hexo-stats-echarts** is a lightweight and visually stunning Hexo plugin designed to help you effortlessly visualize and analyze your blog's statistical data. With just **one line of code**, you can seamlessly integrate beautiful, customizable charts into **any** Hexo page or article.
 
 <div align="right">
@@ -76,8 +80,9 @@ For detailed usage instructions and examples, visit: [Radar Chart Documentation]
 
 ## Planned Features (TODO)
 
-- [ ] **Documentation Updates**: Add detailed guides on heatmap themes, pie chart arguments, post tag blacklists, and chart background color customization.
 - [x] ~~**Radar Chart**: Display the most frequently used post tags in a radar chart format.~~
+- [ ] **Documentation Updates**: Add detailed guides on color themes, tag arguments, post tag blacklist, and chart background color customization.
+- [ ] **Line Chart**: Visualize monthly posting activity with a line chart.
 - [ ] **Sunburst Chart**: Visualize nested post categories with a sunburst chart.
 
 ## Feedback & Support
