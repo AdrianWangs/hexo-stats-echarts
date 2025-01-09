@@ -1,6 +1,6 @@
 {
   "name": "hexo-stats-echarts",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": false,
   "description": "hexo-stats-echarts is a lightweight and visually appealing Hexo plugin designed to help you visualize and analyze your blog's statistical data in an interactive and elegant way. With just one line of code, you can effortlessly insert beautiful, customizable charts into any Hexo page or article.",
   "keywords": [
