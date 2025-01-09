@@ -56,11 +56,29 @@ Visualize your blog's data by tags or publication years.
 
 For detailed usage instructions and examples, visit: [Pie Chart Documentation](https://blog.erispyu.fun/hexo-stats-echarts/pie-chart/)
 
+### Radar Chart
+
+Visualize your blog's data by tags or publication years.
+
+**Quick Start**: Insert the following code snippets into **any** Hexo post or page:
+
+- **Stats by Tags**:
+```nunjucks
+{% radarchart tags %}Tags Radar Chart{% endradarchart %}
+```
+
+- **Stats by Years**:
+```nunjucks
+{% radarchart years %}Years Radar Chart{% endradarchart %}
+```
+
+For detailed usage instructions and examples, visit: [Radar Chart Documentation](https://blog.erispyu.fun/hexo-stats-echarts/radar-chart/)
+
 ## Planned Features (TODO)
 
-- **Documentation Updates**: Add detailed guides on heatmap themes, pie chart arguments, post tag blacklists, and chart background color customization.
-- **Radar Chart**: Display the most frequently used post tags in a radar chart format.
-- **Sunburst Chart**: Visualize nested post categories with a sunburst chart.
+- [ ] **Documentation Updates**: Add detailed guides on heatmap themes, pie chart arguments, post tag blacklists, and chart background color customization.
+- [x] ~~**Radar Chart**: Display the most frequently used post tags in a radar chart format.~~
+- [ ] **Sunburst Chart**: Visualize nested post categories with a sunburst chart.
 
 ## Feedback & Support
 

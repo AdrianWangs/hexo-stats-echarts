@@ -1,8 +1,10 @@
 "use strict";
 
 const { log } = hexo;
-const heatmapChart = require("./lib/heatmap-chart");
-const pieChart = require("./lib/pie-chart");
+
+const {heatmapChartTag} = require("./lib/heatmap-chart");
+const {pieChartTag} = require("./lib/pie-chart");
+const {radarChartTag} = require("./lib/radar-chart");
 
 hexo.extend.injector.register(
     "head_begin",
@@ -12,7 +14,7 @@ hexo.extend.injector.register(
 hexo.extend.tag.register(
     'heatmapchart',
     function (args, content) {
-        return heatmapChart.heatmapChartTag(hexo, args, content);
+        return heatmapChartTag(hexo, args, content);
     },
     { ends: true },
     { async: true },
@@ -22,9 +24,19 @@ log.info("Register hexo tag plugin: heatmapchart");
 hexo.extend.tag.register(
     'piechart',
     function (args, content) {
-        return pieChart.pieChartTag(hexo, args, content);
+        return pieChartTag(hexo, args, content);
     },
     { ends: true },
     { async: true },
 );
 log.info("Register hexo tag plugin: piechart");
+
+hexo.extend.tag.register(
+    'radarchart',
+    function (args, content) {
+        return radarChartTag(hexo, args, content);
+    },
+    { ends: true },
+    { async: true },
+);
+log.info("Register hexo tag plugin: radarchart");
