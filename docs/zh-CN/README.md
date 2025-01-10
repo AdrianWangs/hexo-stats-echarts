@@ -1,10 +1,10 @@
 # Hexo-Stats-ECharts
 
-> **hexo-stats-echarts** 是一个轻量级且视觉精美的 Hexo 插件，旨在帮助您轻松地可视化和分析博客的统计数据。只需 **一行代码**，您就可以在 **任何** Hexo 页面或文章中无缝插入美观且可定制的图表。
-
 <span>[![NPM Version](https://img.shields.io/npm/v/hexo-stats-echarts?color=red&logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
 <span>[![NPM Downloads](https://img.shields.io/npm/dm/hexo-stats-echarts?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
 <span>[![License](https://img.shields.io/badge/license-%20MIT-blue?style=flat-square&logo=gnu)](https://github.com/erispyu/hexo-stats-echarts/blob/main/LICENSE)</span>
+
+> **hexo-stats-echarts** 是一个轻量级且视觉精美的 Hexo 插件，旨在帮助您轻松地可视化和分析博客的统计数据。只需 **一行代码**，您就可以在 **任何** Hexo 页面或文章中无缝插入美观且可定制的图表。
 
 <div align="right">
   语言:
