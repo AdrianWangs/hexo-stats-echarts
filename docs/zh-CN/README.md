@@ -2,6 +2,10 @@
 
 > **hexo-stats-echarts** 是一个轻量级且视觉精美的 Hexo 插件，旨在帮助您轻松地可视化和分析博客的统计数据。只需 **一行代码**，您就可以在 **任何** Hexo 页面或文章中无缝插入美观且可定制的图表。
 
+<span>[![NPM Version](https://img.shields.io/npm/v/hexo-stats-echarts?color=red&logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
+<span>[![NPM Downloads](https://img.shields.io/npm/dm/hexo-stats-echarts?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
+<span>[![License](https://img.shields.io/badge/license-%20MIT-blue?style=flat-square&logo=gnu)](https://github.com/erispyu/hexo-stats-echarts/blob/main/LICENSE)</span>
+
 <div align="right">
   语言:
   <a title="英语" href="../../README.md">🇺🇸</a>
@@ -56,11 +60,30 @@ npm install hexo-stats-echarts
 
 详细使用方法和示例请访问：[饼图文档](https://blog.erispyu.fun/hexo-stats-echarts/pie-chart/)
 
-## 计划中的功能 (TODO)
+### 雷达图
 
-- **文档更新**：添加关于热力图主题、饼图参数、文章标签黑名单和图表背景颜色配置的详细指南。
-- **雷达图**：以雷达图形式展示最常用的文章标签。
-- **旭日图**：用旭日图可视化嵌套的文章分类。
+按标签或年份可视化您的博客数据。
+
+**快速开始**：将以下代码片段插入到 **任何** Hexo 文章或页面中：
+
+- **按标签统计**：
+```nunjucks
+{% radarchart tags %}标签雷达图{% endradarchart %}
+```
+
+- **按年份统计**：
+```nunjucks
+{% radarchart years %}年份雷达图{% endradarchart %}
+```
+
+详细使用方法和示例请访问：[雷达图文档](https://blog.erispyu.fun/hexo-stats-echarts/radar-chart/)
+
+
+## 计划中的功能 (TODO)
+- [x] ~~**雷达图**：以雷达图形式展示最常用的文章标签。~~
+- [] **文档更新**：添加关于热力图主题、饼图参数、文章标签黑名单和图表背景颜色配置的详细指南。
+- [] **折线图**：用折线可视化每月的文章数量。
+- [] **旭日图**：用旭日图可视化嵌套的文章分类。
 
 ## 反馈与支持
 

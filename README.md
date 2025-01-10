@@ -1,8 +1,9 @@
 # Hexo-Stats-ECharts
 
-[![NPM Version](https://img.shields.io/npm/v/hexo-stats-echarts?color=red&logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)
-[![NPM Downloads](https://img.shields.io/npm/dm/hexo-stats-echarts?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)
-[![License](https://img.shields.io/badge/license-%20MIT-blue?style=flat-square&logo=gnu)](https://github.com/erispyu/hexo-stats-echarts/blob/main/LICENSE)
+<span>[![NPM Version](https://img.shields.io/npm/v/hexo-stats-echarts?color=red&logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
+<span>[![NPM Downloads](https://img.shields.io/npm/dm/hexo-stats-echarts?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
+<span>[![License](https://img.shields.io/badge/license-%20MIT-blue?style=flat-square&logo=gnu)](https://github.com/erispyu/hexo-stats-echarts/blob/main/LICENSE)</span>
+
 
 > **hexo-stats-echarts** is a lightweight and visually stunning Hexo plugin designed to help you effortlessly visualize and analyze your blog's statistical data. With just **one line of code**, you can seamlessly integrate beautiful, customizable charts into **any** Hexo page or article.
 
