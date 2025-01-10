@@ -4,7 +4,7 @@
 <span>[![NPM Downloads](https://img.shields.io/npm/dm/hexo-stats-echarts?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
 <span>[![License](https://img.shields.io/badge/license-%20MIT-blue?style=flat-square&logo=gnu)](https://github.com/erispyu/hexo-stats-echarts/blob/main/LICENSE)</span>
 
-> **hexo-stats-echarts** 是一个轻量级且视觉精美的 Hexo 插件，旨在帮助您轻松地可视化和分析博客的统计数据。只需 **一行代码**，您就可以在 **任何** Hexo 页面或文章中无缝插入美观且可定制的图表。
+> **hexo-stats-echarts** 是一个轻量级且视觉精美的 Hexo 插件，旨在帮助你轻松地可视化和分析博客的统计数据。只需 **一行代码**，你就可以在 **任何** Hexo 页面或文章中无缝插入美观且可定制、可交互的图表。
 
 <div align="right">
   语言:
@@ -16,13 +16,13 @@
 
 该插件基于 [Hexo Tag Plugins](https://hexo.io/api/tag) 框架，并利用强大的 [Apache ECharts 库](https://echarts.apache.org/zh/index.html)，将原始的博客统计数据（如文章发布频率、标签和分类）转化为优雅的交互式图表。
 
-图表会根据浏览器的设置动态切换 `深色模式` 和 `浅色模式`，完美适配您的网站主题。无论您是追踪写作习惯，还是展示博客活动，该插件都能提供无缝且引人入胜的体验。
+图表会根据浏览器的设置动态切换 `深色模式` 和 `浅色模式`，完美适配你的网站主题。无论你是追踪写作习惯，还是展示博客活动，该插件都能提供无缝且引人入胜的体验。
 
-本插件灵感来源于 [hexo-graph](https://github.com/codepzj/hexo-graph)。如果您正在寻找其他解决方案，也可以尝试 hexo-graph！
+本插件灵感来源于 [hexo-graph](https://github.com/codepzj/hexo-graph)。如果你正在寻找其他解决方案，也可以试试这个！
 
 ## 安装
 
-在您的 Hexo 项目目录中运行以下命令以安装插件：
+在你的 Hexo 项目目录中运行以下命令以安装插件：
 
 ```bash
 npm install hexo-stats-echarts
@@ -32,7 +32,7 @@ npm install hexo-stats-echarts
 
 ### 热力图
 
-通过交互式热力图可视化您的每日文章发布情况。
+通过交互式热力图可视化你的每日文章发布情况。
 
 **快速开始**：将以下代码片段插入到 **任何** Hexo 文章或页面中：
 
@@ -44,7 +44,7 @@ npm install hexo-stats-echarts
 
 ### 饼图
 
-按标签或年份可视化您的博客数据。
+按标签或年份可视化你的博客数据。
 
 **快速开始**：将以下代码片段插入到 **任何** Hexo 文章或页面中：
 
@@ -62,7 +62,7 @@ npm install hexo-stats-echarts
 
 ### 雷达图
 
-按标签或年份可视化您的博客数据。
+按标签或年份可视化你的博客数据。
 
 **快速开始**：将以下代码片段插入到 **任何** Hexo 文章或页面中：
 

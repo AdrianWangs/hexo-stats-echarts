@@ -4,7 +4,7 @@
 <span>[![NPM Downloads](https://img.shields.io/npm/dm/hexo-stats-echarts?logo=npm&style=flat-square)](https://www.npmjs.com/package/hexo-stats-echarts)</span>
 <span>[![License](https://img.shields.io/badge/license-%20MIT-blue?style=flat-square&logo=gnu)](https://github.com/erispyu/hexo-stats-echarts/blob/main/LICENSE)</span>
 
-> **hexo-stats-echarts** is a lightweight and visually stunning Hexo plugin designed to help you effortlessly visualize and analyze your blog's statistical data. With just **one line of code**, you can seamlessly integrate beautiful, customizable charts into **any** Hexo page or article.
+> **hexo-stats-echarts** is a lightweight and visually stunning Hexo plugin designed to help you effortlessly visualize and analyze your blog's statistical data. With just **one line of code**, you can seamlessly integrate beautiful, customizable and interactive charts into **any** Hexo page or article.
 
 <div align="right">
   Language:
@@ -18,7 +18,7 @@ Built on the [Hexo Tag Plugins](https://hexo.io/api/tag) framework and powered b
 
 The charts dynamically adapt to your site's theme, switching between `dark mode` and `light mode` based on your browser settings. Whether you're tracking your writing habits or showcasing your blog's activity, this plugin delivers a seamless and engaging experience.
 
-Inspired by [hexo-graph](https://github.com/codepzj/hexo-graph), this plugin offers a fresh take on data visualization for Hexo blogs. If you're looking for alternative solutions, feel free to explore hexo-graph as well!
+Inspired by [hexo-graph](https://github.com/codepzj/hexo-graph), if you're looking for alternative solutions, feel free to explore it as well!
 
 ## Installation
 
