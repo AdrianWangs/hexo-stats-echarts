@@ -8,7 +8,7 @@ const {radarChartTag} = require("./lib/radar-chart");
 
 hexo.extend.injector.register(
     "head_begin",
-    '<script src="https://cdn.jsdelivr.net/npm/echarts@5.5.1/dist/echarts.min.js"></script>',
+    '<script src="https://cdn.jsdelivr.net/npm/echarts@5.6.0/dist/echarts.min.js"></script>',
 );
 
 hexo.extend.tag.register(
